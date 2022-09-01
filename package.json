@@ -3,9 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@lilithmod/unborn-mcproto": "^0.13.0",
+    "@types/node": "^18.7.14",
+    "benchmark": "^2.1.4",
+    "microtime": "^3.1.1",
+    "minecraft-packets": "^1.5.0",
+    "mitata": "^0.1.6",
+    "tinybench": "^2.1.3",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.2"
+  }
 }
